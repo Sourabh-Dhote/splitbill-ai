@@ -1,0 +1,21 @@
+{
+  "restaurant_name": "The Spice Garden",
+  "currency": "INR",
+  "items": [
+    {"id": "item-1", "name": "Chicken Biryani", "quantity": 2, "unit_price": 25000, "total_price": 50000, "confidence": "high"},
+    {"id": "item-2", "name": "Coke", "quantity": 1, "unit_price": 8000, "total_price": 8000, "confidence": "high"},
+    {"id": "item-3", "name": "Mineral Water", "quantity": 1, "unit_price": 4000, "total_price": 4000, "confidence": "high"},
+    {"id": "item-4", "name": "Paneer Tikka", "quantity": 1, "unit_price": 22000, "total_price": 22000, "confidence": "high"},
+    {"id": "item-5", "name": "Naan", "quantity": 2, "unit_price": 5000, "total_price": 10000, "confidence": "high"}
+  ],
+  "subtotal": 94000,
+  "discount": 5000,
+  "taxes": [
+    {"name": "CGST 2.5%", "rate": 0.025, "amount": 2350, "confidence": "high"},
+    {"name": "SGST 2.5%", "rate": 0.025, "amount": 2350, "confidence": "high"}
+  ],
+  "service_charge": 4700,
+  "total": 98400,
+  "extraction_confidence": null,
+  "warnings": []
+}
